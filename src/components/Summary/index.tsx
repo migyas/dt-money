@@ -1,10 +1,10 @@
-import { Card, Container } from "./styles";
-import { ArrowCircleUp, ArrowCircleDown, CurrencyDollar } from "phosphor-react";
-import { priceFormatter } from "../../utils/formatter";
-import { useSummary } from "../../hooks/useSummary";
+import { Card, Container } from './styles'
+import { ArrowCircleUp, ArrowCircleDown, CurrencyDollar } from 'phosphor-react'
+import { priceFormatter } from '../../utils/formatter'
+import { useSummary } from '../../hooks/useSummary'
 
 export function Summary() {
-  const summary = useSummary();
+  const summary = useSummary()
 
   return (
     <Container>
@@ -30,5 +30,5 @@ export function Summary() {
         <strong>{priceFormatter.format(summary.total)}</strong>
       </Card>
     </Container>
-  );
+  )
 }

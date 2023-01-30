@@ -15,6 +15,30 @@
       "category": "Alimentação",
       "price": 63,
       "createdAt": "2023-01-28T21:12:16.521Z"
+    },
+    {
+      "description": "Burg",
+      "price": 50,
+      "category": "Alimento",
+      "type": "outcome",
+      "createdAt": "2023-01-28T23:23:35.366Z",
+      "id": 3
+    },
+    {
+      "description": "Pastel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-01-28T23:31:50.549Z",
+      "id": 4
+    },
+    {
+      "description": "Pastel de novo",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-01-28T23:32:30.854Z",
+      "id": 5
     }
   ]
 }
